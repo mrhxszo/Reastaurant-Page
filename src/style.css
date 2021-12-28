@@ -33,6 +33,9 @@ header{
     width: 10rem;
 }
 
+
+/* home */
+
 .home-container{
     margin-top: 14%;
     margin-bottom: 8%;
@@ -94,6 +97,7 @@ footer{
     height: 400px;
     width: 400px;
 }
+
 /* contact */
 .contact-container{
     background-color: RGBA(0,0,0,0.5);
@@ -103,4 +107,49 @@ footer{
     justify-content: space-around;
     color:wheat;
     margin-bottom: 8%;
+}
+
+.contact-image{
+
+    width: 480px;
+    height: 500px;
+}
+
+
+@media only screen and (max-width: 480px){
+
+    .logo{
+        width: 5rem;
+    }
+    header{
+        width: 90%;
+        justify-content: space-around;
+    }
+    .header-buttons {
+        padding: 5%;
+    }
+    .menu-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    .menu-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        margin-top: 18%;
+    }
+    .item {
+        height: 500px;
+        width: 350px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        margin-top: 30%;
+    }
+    .contact-image {
+        width: 350px;
+        height: 500px;
+    }
 }

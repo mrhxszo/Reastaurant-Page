@@ -17,6 +17,7 @@ const Contact = function (){
         nodemodify.multipleAppend([img, info], container);
         nodemodify.multipleAppend([container], nodemodify.body);
         nodemodify.addClass([container],"contact-container");
+        img.classList.add("contact-image");
 
         footer.createfooter();
 

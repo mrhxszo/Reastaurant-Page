@@ -18,7 +18,7 @@ const Header = function(){
         logo.src = img;
         home.innerText = "Home";
         menu.innerText = "Menu";
-        contact.innerText = "Contact Us";
+        contact.innerText = "Contact";
 
         nodemodify.addClass([headercontainer],"headercontainer");
         nodemodify.addClass([home, menu, contact],"header-buttons");
